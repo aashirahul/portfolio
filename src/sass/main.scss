@@ -1,0 +1,28 @@
+nav{
+	list-style: none;
+}
+.navbar{
+	position: fixed;
+	top: 50%;
+	right: 30px;
+	
+}
+.main-scroll{
+	position: relative;
+	overflow: scroll;
+}
+.intro{
+	width: 70%;
+	height: 500px;
+	background-color: lightgrey;
+}
+.about{
+	width: 70%;
+	height: 500px;
+	background-color: lightblue;
+}
+.skills{
+	width: 70%;
+	height: 500px;
+	background-color: lightgreen;
+}
