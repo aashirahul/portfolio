@@ -5,16 +5,25 @@ nav{
 	position: fixed;
 	top: 50%;
 	right: 30px;
+	z-index: 1000;
 	
 }
 .main-scroll{
 	position: relative;
 	overflow: scroll;
 }
-.intro{
-	width: 70%;
-	height: 500px;
-	background-color: lightgrey;
+#intro-section{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+	/*background-color: #badce8;*/
+}
+#introDiv{
+	position: absolute;
+    left: 0;
+    top: 50vh;
+    width: 100%;
+    text-align: center;
 }
 .about{
 	width: 70%;

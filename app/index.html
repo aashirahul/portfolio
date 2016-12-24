@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body ng-app = "app">
+  <body>
     <div class="container">
-        <nav class="navbar nav-pills .nav-stacked">
-          <li role="presentation" class="active"><a href="#intro-section">Intro</a></li>
-          <li role="presentation"><a href="#about-section">About</a></li>
-          <li role="presentation"><a href="#skills-section">Skills</a></li>
-          <li role="presentation"><a href="#work-section">My Work</a></li>
-          <li role="presentation"><a href="#experience-section">Experience</a></li>
-          <li role="presentation"><a href="#contact-section">Contact</a></li>
+     
+        <nav class="navbar .nav-stacked">
+          <ul>
+          <li class="active"><a href="#intro-section">Intro</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#work-section">My Work</a></li>
+          <li><a href="#experience-section">Experience</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+          </ul>
         </nav>
+      
       <div class ="main-scroll">
-      <section id="intro-section"> <div class="intro">hi</div> </section>
+      <section id="intro-section"> <div id="introDiv" class="introDiv" >hi</div> </section>
       <section id="about-section"> <div class="about">name is</div></section>
       <section id = "skills-section"> <div class="skills">javascript </div> </section>
       <section id = "work-section"> projects</section>
@@ -28,6 +32,8 @@
 
      
     </div>
+     <script src= "particleground-master/jquery.particleground.js" type="text/javascript"></script>
     <script src="js/bundle.js"></script>
+
   </body>
 </html>
