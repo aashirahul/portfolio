@@ -13,7 +13,7 @@ nav{
 	overflow: scroll;
 }
 .introduction{
-	animation-duration: 4s;
+	animation-duration: 2s;
   	animation-name: slideIn;
 }
 @keyframes slideIn{
@@ -26,6 +26,21 @@ nav{
     margin-left: 0%;
     width: 100%;
   }
+}
+/*#message{
+	animation-duration: 4s;
+	animation-name: slideOut;
+}
+@keyframes slideOut{
+	from{
+		transform: translateX(100%);
+	}
+	to{
+		transform: translateX(100%);
+	}
+}*/
+.removeHI{
+	visibility: hidden;
 }
 #intro-section{
 	width: 100%;

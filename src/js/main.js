@@ -1,4 +1,4 @@
-
+import $ from 'jquery';
 
 function intropage(){
 	var reqdSection = particleground(document.getElementById("intro-section"),{
@@ -10,3 +10,7 @@ function intropage(){
 
 }
 intropage();
+
+$(document).ready(function(){
+	$("#message").addClass('removeHI')
+});
