@@ -10,8 +10,25 @@ function intropage(){
 
 }
 intropage();
+var timeoutID;
+var timeoutid;
 
-$(document).ready(function(){
+function displayGreeting() {
+  timeoutID = window.setTimeout(removeGreeting, 2000);
+}
+
+function removeGreeting(){
 	$("#message").addClass('removeHI')
-});
+};
+displayGreeting();
  
+
+function displayName(){
+	timeoutid = window.setTimeout(addName,2000);
+}
+function addName(){
+	$(".introduction").addClass('introAnimation')
+};
+
+
+displayName();
