@@ -31,14 +31,44 @@
     width: 100%;
   }
 }
+.greetingAnimation-i{
+	animation-duration: 3s;
+	animation-name: appear;
+	/*animation-fill-mode: forwards;*/
+	animation-timing-function: ease;
+}
+@keyframes appear{
+	from{
+		margin-top: 0vh;
+		opacity: 0.2;
+	}
+	to{
+		margin-top: 40vh;
+		opacity: 1;
+	}
+}
+.greetingAnimation-ii{
+	animation-duration: 4s;
+	animation-name: slideOut;
+}
+@keyframes slideOut{
+	from{
+		margin-right:  0%;
+	}
+	to{
+		margin-right: 100%;
+	}
+}
 
 .removeHI{
+	
 	visibility: hidden;
 }
+
 #intro-section{
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(to bottom, #c0e0a8 24%,#b1dd8d 52%,#aadb7f 77%,#ace283 100%);
+	background: linear-gradient(to bottom, #abef86 24%,#c7f2a2 50%,#e1fccf 100%);
 	
 }
 #introDiv{
@@ -53,11 +83,21 @@
 }
 .about{
 	width: 100%;
+	height: 100vh;	
+	
+}
+.about-content{
+	float: left;
+	width: 50%;
 	height: 100vh;
-	opacity: 0.6;
-	background-color: lightblue;
+
 }
 #work{
+	opacity: 0.6;
+
+}
+#skill{
+	opacity: 0.6;
 
 }
 .projectName{

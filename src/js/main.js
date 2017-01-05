@@ -10,17 +10,23 @@ function intropage(){
 
 }
 intropage();
+var timeoutId;
 var timeoutID;
 var timeoutid;
+
+$(document).ready(function appearGreeting(){
+    $("#message").addClass('greetingAnimation-i')
+}());
+//appearGreeting();
 
 function displayGreeting() {
   timeoutID = window.setTimeout(removeGreeting, 2000);
 }
 
 function removeGreeting(){
-	$("#message").addClass('removeHI')
+	$("#message").addClass('greetingAnimation-ii')
 };
-displayGreeting();
+//displayGreeting();
  
 
 function displayName(){
