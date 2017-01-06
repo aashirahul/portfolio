@@ -2,8 +2,8 @@ import $ from 'jquery';
 
 function intropage(){
 	var reqdSection = particleground(document.getElementById("intro-section"),{
-    dotColor: '#16a085',
-    lineColor: '#16a085'
+    dotColor: '#ccc',
+    lineColor: '#ccc'
 		
 	});
 	
@@ -19,18 +19,10 @@ $(document).ready(function appearGreeting(){
 }());
 //appearGreeting();
 
-function displayGreeting() {
-  timeoutID = window.setTimeout(removeGreeting, 2000);
-}
 
-function removeGreeting(){
-	$("#message").addClass('greetingAnimation-ii')
-};
-//displayGreeting();
- 
 
 function displayName(){
-	timeoutid = window.setTimeout(addName,2000);
+	//timeoutid = window.setTimeout(addName,2000);
 }
 function addName(){
 	$(".introduction").addClass('introAnimation')
@@ -38,3 +30,17 @@ function addName(){
 
 
 displayName();
+function disappearGreeting() {
+  //timeoutID = window.setTimeout(removeGreeting, 1000);
+  window.setTimeout(animation2, 3000);
+}
+
+function animation2() {
+	$(".introduction").addClass('introAnimation');
+	$("#message").addClass('greetingAnimation-ii');
+}
+
+function removeGreeting(){
+	$("#message").addClass('greetingAnimation-ii')
+};
+disappearGreeting();

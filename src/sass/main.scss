@@ -17,46 +17,49 @@
 }
 .introAnimation{
 	visibility: visible;
-	animation-duration: 2s;
+	animation-duration: 3s;
   	animation-name: slideIn;
 }
 @keyframes slideIn{
 	from {
     margin-left: 100%;
-    width: 300%; 
+    opacity: 0;
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
+    opacity: 1;
   }
 }
 .greetingAnimation-i{
 	animation-duration: 3s;
 	animation-name: appear;
-	/*animation-fill-mode: forwards;*/
+	animation-fill-mode: forwards;
 	animation-timing-function: ease;
 }
 @keyframes appear{
 	from{
-		margin-top: 0vh;
-		opacity: 0.2;
+		margin-top: 5vh;
+		opacity: 0;
 	}
 	to{
-		margin-top: 40vh;
+		margin-top: 20vh;
 		opacity: 1;
 	}
 }
 .greetingAnimation-ii{
-	animation-duration: 4s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 	animation-name: slideOut;
 }
 @keyframes slideOut{
 	from{
-		margin-right:  0%;
+		opacity: 1;
+		margin-top: 20vh;
 	}
 	to{
-		margin-right: 100%;
+		opacity: 0;
+		margin-top: 15vh;
 	}
 }
 
@@ -68,7 +71,7 @@
 #intro-section{
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(to bottom, #abef86 24%,#c7f2a2 50%,#e1fccf 100%);
+	background: linear-gradient(to bottom, #596a72 0%,#929687 50%,#cedce7 100%);
 	
 }
 #introDiv{
@@ -91,6 +94,9 @@
 	width: 50%;
 	height: 100vh;
 
+}
+#image{
+	background-repeat: no-repeat;
 }
 #work{
 	opacity: 0.6;
