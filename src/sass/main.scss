@@ -1,12 +1,14 @@
-.navbar{
-	list-style: none;
-}
+
 .navbar{
 	position: fixed;
 	top: 50%;
 	right: 30px;
 	z-index: 1000;
 	
+}
+ul{
+	list-style: none;
+
 }
 .main-scroll{
 	position: relative;
@@ -87,7 +89,9 @@
 .about{
 	width: 100%;
 	height: 100vh;	
-	
+}
+#about-section{
+	background: #829997;
 }
 .about-content{
 	width: 100%;
@@ -96,15 +100,17 @@
 #image{
 	background-repeat: no-repeat;
 	width: 100%;
-	padding: 10px;
+	padding: 7px;
 	text-align: center;
 }
 img{
 	border: 2px solid grey;
+	border-radius: 100%;
 }
 #about-descrip{
+	width: 80%;
 	text-align: center;
-	margin-right: 30px;
+	margin:auto;
 }
 #work{
 	opacity: 0.6;
