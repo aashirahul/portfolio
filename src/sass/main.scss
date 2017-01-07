@@ -88,7 +88,7 @@ ul{
 }
 .about{
 	width: 100%;
-	height: 100vh;	
+	min-height: 100vh;	
 }
 #about-section{
 	background: #829997;
@@ -103,7 +103,7 @@ ul{
 	padding: 7px;
 	text-align: center;
 }
-img{
+#about-img{
 	border: 2px solid grey;
 	border-radius: 100%;
 }
@@ -114,16 +114,57 @@ img{
 }
 #work{
 	opacity: 0.6;
+	background-image:url('../images/home-office-336373_1280.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+
 
 }
 #skill{
 	opacity: 0.6;
 
 }
-.projectName{
+.heading{
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.clearfix{
+	width:100%;
+	min-height: 100vh;
+}
+.project{
 	margin-top:7px;
-	width: 50%;
-	height: 50vh;
-	float:left;
-
+	width: 45%;
+	height: 500px;
+	display: inline-block;
+}
+.title{
+	text-align: center;
+	padding-left: 10px;
+	padding-bottom: 7px;
+}
+.project-descrip{
+	text-align: left;
+	padding-left: 10px;
+}
+.link{
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	height: 3vh;
+	padding-top: 6px;
+	margin-top: 7px;
+	border: 2px solid black;
+}
+.screenshot{
+	text-align: center;
+}
+#screenshot-img{
+	opacity: 1;
+}
+a{
+	text-decoration: none;
+	color: black;
 }
