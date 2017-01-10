@@ -90,8 +90,23 @@ ul{
 	width: 100%;
 	min-height: 100vh;	
 }
-#about-section{
-	background: #829997;
+.about-style{
+	animation-duration: 6s;
+	animation-name: colorAnimation;
+	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+
+}
+@keyframes colorAnimation{
+	 0% {
+       background: #829997;
+    }
+    50% {
+       background: #7F8E96;
+    } 
+    100% {
+       background: #7F9690;
+    } 
 }
 .about-content{
 	width: 100%;
