@@ -89,9 +89,11 @@ ul{
 .about{
 	width: 100%;
 	min-height: 100vh;	
+	color: #FCFCFC;
+
 }
 .about-style{
-	animation-duration: 6s;
+	animation-duration: 4s;
 	animation-name: colorAnimation;
 	animation-iteration-count: infinite;
   	animation-direction: alternate;
@@ -128,15 +130,24 @@ ul{
 	margin:auto;
 }
 #work{
-	color: white;
+	
 	background-image:url('../images/home-office-336373_1280.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100vh;
 }
 #skill{
-	background-image:url('../images/books-1850645_1280.jpg');
-	opacity: 0.6;
+	background-image:url('../images/books-1850645_1280.jpg');	
+	text-align: center;
+	vertical-align: middle;
+}
+.skill-title{
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 25px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+
 }
 #development{
 	width: 100%;
@@ -149,52 +160,69 @@ ul{
 	padding-top: 10px;
 	padding-left: 15px;
 }
-#icon-image{
-	border-radius: 50%;
+.tool{
+	width: 10%;
+	height: 100px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 15px;
+	
 }
-#icon-image1{
-	border-radius: 40%;
+#icon-image{
+	border-radius: 20%;
 }
 .heading{
 	padding-top: 10px;
 	padding-left: 10px;
 	margin-bottom: 5px;
+	color:#E6E0CB;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 25px;
 }
 .clearfix{
 	width:100%;
 	min-height: 100vh;
 }
 .project{
-	margin-top:7px;
+	margin-top:3px;
 	width: 45%;
-	height: 500px;
+	height: 450px;
 	display: inline-block;
+	text-align: left;
 }
 .title{
 	text-align: center;
 	padding-left: 10px;
-	padding-bottom: 7px;
+	padding-bottom: 10px;
+	color:#E6E0CB;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 20px;
 }
 .project-descrip{
+	margin-top: 10px;
+	margin-left: 20px;
 	text-align: left;
-	padding-left: 10px;
+	color:#E6E0CB;
+	font-family: 'Vidaloka', serif;
 }
 .link{
+	color:#E6E0CB;
 	display: inline-block;
 	text-align: center;
 	width: 10%;
 	height: 3vh;
 	padding-top: 6px;
+	margin-left: 20px;
 	margin-top: 7px;
-	border: 2px solid black;
+	border: 2px solid #E6E0CB;
 }
 .screenshot{
 	text-align: center;
 }
 #screenshot-img{
-	opacity: 1;
+	border-radius: 6px;
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: #E6E0CB;
 }
