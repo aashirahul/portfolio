@@ -29,4 +29,16 @@ function animation2() {
 
 disappearGreeting();
 
+/*$(".bullet").click(function(event){	
+	if($(this).hasClass("selected")){
+		$(this).removeClass("selected");
+	} else {
+		$(this).addClass("selected");
+	}	
+})*/
+
+$(".bullet").click(function(event){
+	$(event.target).toggleClass("selected");
+
+})
 

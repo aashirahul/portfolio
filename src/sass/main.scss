@@ -39,6 +39,9 @@ ul{
 .bullet:hover .text{
 	visibility: visible;
 }
+.selected{
+	background-color: red;
+}
 .main-scroll{
 	position: relative;
 	overflow: scroll;
