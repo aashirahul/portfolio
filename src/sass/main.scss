@@ -8,14 +8,52 @@
 }
 ul{
 	list-style: none;
-
+}
+.bullet{
+	width:10px;
+	height: 10px;
+	background-color: #D3D3D3;
+	border-radius: 6px;
+	margin: 7px;
+	text-align: right;
+}
+.bullet .text{
+	position: relative;
+	right: 45px;
+	bottom: 4px;
+	visibility: hidden;
+}
+.bullet .text1{
+	right: 40px;
+}
+.bullet .text2{
+	right: 50px;
+}
+.bullet .text4{
+	right: 63px;
+}
+.bullet:hover .text{
+	visibility: visible;
 }
 .main-scroll{
 	position: relative;
 	overflow: scroll;
 }
+#message{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 40px;
+	color: #FFFFFF;
+
+}
 .introduction{
+	color: #FFFFFF;
 	visibility: hidden;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 32px;
+}
+#name{
+	font-size: 42px;
+
 }
 .introAnimation{
 	visibility: visible;

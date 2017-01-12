@@ -2,8 +2,8 @@ import $ from 'jquery';
 
 function intropage(){
 	var reqdSection = particleground(document.getElementById("intro-section"),{
-    dotColor: '#ccc',
-    lineColor: '#ccc'
+    dotColor: '#FFFFFF',
+    lineColor: '#FFFFFF'
 		
 	});
 	
