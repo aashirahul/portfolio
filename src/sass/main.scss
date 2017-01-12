@@ -32,6 +32,10 @@ ul{
 .bullet .text4{
 	right: 63px;
 }
+.bullet:hover{
+	background-color: #96EAD4;
+}
+
 .bullet:hover .text{
 	visibility: visible;
 }
