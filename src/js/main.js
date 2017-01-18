@@ -29,16 +29,31 @@ function animation2() {
 
 disappearGreeting();
 
-/*$(".bullet").click(function(event){	
-	if($(this).hasClass("selected")){
-		$(this).removeClass("selected");
-	} else {
-		$(this).addClass("selected");
-	}	
-})*/
-
-$(".bullet").click(function(event){
-	$(event.target).toggleClass("selected");
-
+$(".bullet").click(function(event){	
+	$(".bullet").removeClass("selected");
+	$(this).addClass("selected");
 })
 
+$(document).ready(function(){
+
+	$(window).scroll(function(){
+		var windowHeight = $(window).height();
+		var docTop = $(window).scrollTop();
+
+		processVisible(windowHeight, docTop, $("#intro-section"), $("#introBullet"));
+		processVisible(windowHeight, docTop, $("#about-section"), $("#aboutBullet"));
+		processVisible(windowHeight, docTop, $("#skills-section"), $("#skillsBullet"));
+		processVisible(windowHeight, docTop, $("#work-section"), $("#workBullet"));
+		processVisible(windowHeight, docTop, $("#contact-section"), $("#contactBullet"));
+	})
+})
+
+function processVisible(windowHeight, docTop, sectionElement, bulletElement) {
+	var aboutElemOffset = sectionElement.offset().top;
+	var aboutDocView = windowHeight+docTop-aboutElemOffset;
+	if(aboutDocView>0 && (aboutDocView <= sectionElement.height())){
+		bulletElement.addClass("selected");
+	} else {
+		bulletElement.removeClass("selected");
+	}
+}
