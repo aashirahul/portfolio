@@ -57,3 +57,25 @@ function processVisible(windowHeight, docTop, sectionElement, bulletElement) {
 		bulletElement.removeClass("selected");
 	}
 }
+
+function submitForm(){
+	var senderEmail = $("#email").val();
+	var senderMessage = $("#mess").val();
+
+	$.ajax({
+		type:'POST',
+		url:"https://doorbell.io/api/applications/5189/submit",
+		data:{
+			email: senderEmail,
+			message: senderMessage,
+			key: '3tLcZ8oZ8vd4UMO4ZVkDZrv6NzINLPIGC8PwN19h0AJV5lLzBwsZm8VSZuZmVHDv'
+		},
+		dataType:'text',
+		success: function() { alert("Save Complete") }
+
+	});
+
+}
+
+$("#submit").click(submitForm);
+
