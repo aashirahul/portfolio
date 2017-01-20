@@ -41,7 +41,8 @@ ul{
 	visibility: visible;
 }
 .selected{
-	background-color: red;
+	background-color: #3e9e85;
+	border: 2px solid #f2f2f2 ;
 }
 .main-scroll{
 	position: relative;
@@ -237,10 +238,13 @@ ul{
 }
 .project{
 	margin-top:3px;
+	padding-top: 7px;
 	width: 45%;
 	height: 450px;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
+	padding-left: 7px;
+
 }
 .title{
 	text-align: center;
@@ -251,11 +255,13 @@ ul{
 	font-size: 20px;
 }
 .project-descrip{
+	width: 75%;
 	margin-top: 10px;
-	margin-left: 20px;
-	text-align: left;
+	margin-left: 70px;
+	text-align: center;
 	color:#E6E0CB;
-	font-family: 'Vidaloka', serif;
+	font-family: 'Source Sans Pro', sans-serif;
+
 }
 .link{
 	color:#E6E0CB;
@@ -266,7 +272,14 @@ ul{
 	padding-top: 6px;
 	margin-left: 20px;
 	margin-top: 7px;
-	border: 2px solid #E6E0CB;
+	border: 1px solid #E6E0CB;
+	border-radius: 6px;
+}
+.link:hover{
+	background-color: #00b7c7;
+	color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+
 }
 .screenshot{
 	text-align: center;
