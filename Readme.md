@@ -1,4 +1,4 @@
 
 
-#### [View live](http://tiy-ashimasrivastava-portfolio.surge.sh/#contact-section) 
+#### [View live](http://tiy-ashimasrivastava-portfolio.surge.sh) 
 
