@@ -162,10 +162,9 @@ ul{
 
 #image{
 	background-repeat: no-repeat;
-	width: 100%;
-	padding: 7px;
+	padding-top: 30px;
 	text-align: center;
-	height: 70%;	
+	
 }
 #about-img{
 	border: 2px solid grey;
@@ -194,20 +193,9 @@ ul{
 }
 .skill-title{
 	font-family: 'Averia Serif Libre', cursive;
-	font-size: 35px;
-	padding-left: 10px;
-	padding-top: 80px;
-	padding-bottom: 10px;
+	font-size: 30px;
+}
 
-}
-.title2{
-	padding-top: 40px;
-}
-#development{
-	width: 100%;
-	height: 200px;
-	padding-top: 10px;
-}
 .icon{
 	height: 100px;
 	display: inline-block;
@@ -227,11 +215,13 @@ ul{
 }
 .heading{
 	padding-top: 10px;
-	padding-left: 10px;
-	margin-bottom: 5px;
 	color:#E6E0CB;
 	font-family: 'Averia Serif Libre', cursive;
 	font-size: 25px;
+	text-align: center;
+}
+#color{
+	color: white;
 }
 .clearfix{
 	width:100%;
@@ -249,9 +239,6 @@ ul{
 
 }
 .title{
-	text-align: center;
-	padding-left: 10px;
-	padding-bottom: 10px;
 	color:#E6E0CB;
 	font-family: 'Playfair Display SC', serif;
 	font-size: 20px;
@@ -267,10 +254,12 @@ ul{
 	color:#E6E0CB;
 	display: inline-block;
 	text-align: center;
+	vertical-align: middle;
 	height: 3vh;
-	padding-top: 6px;
+	padding: 5px;
 	margin-left: 20px;
 	margin-top: 7px;
+	margin-bottom: 20px;
 	border: 1px solid #E6E0CB;
 	border-radius: 6px;
 }
@@ -303,6 +292,7 @@ a{
 	font-family: 'Arima Madurai', cursive;
 	font-size: 30px;
 	font-weight: bold;
+	padding-top: 25px;
 
 }
 .contact-form{
